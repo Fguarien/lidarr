@@ -1,0 +1,17 @@
+version: "3.9"
+services:
+  lidarr:
+    image: ghcr.io/linuxserver/lidarr:latest
+    container_name: lidarr
+    environment:
+      - PUID=1026         
+      - PGID=100          
+      - TZ=Europe/Brussels
+    volumes:
+      - /volume1/docker/lidarr/config:/config
+      - /volume1/music/organized:/music
+      - /volume1/music/deleted:/trashed
+      - /volume1/downloads:/downloads
+    ports:
+      - "8686:8686"       
+    restart: unless-stopped
