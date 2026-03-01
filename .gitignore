@@ -7,3 +7,9 @@ data/
 logs/
 *.log
 # -------------------------
+MediaCover
+*.dblog/
+_logs/
+_archives/
+*.tmp
+config/
