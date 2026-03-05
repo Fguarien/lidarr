@@ -27,3 +27,9 @@ config/
 secrets/
 certs/
 docker-compose.override.yml
+config/lidarr.db
+config/Backups/scheduled/lidarr_backup_v3.1.2.4914_2026.02.18_18.36.47.zip
+config/Backups/scheduled/lidarr_backup_v3.1.2.4914_2026.02.11_18.17.40.zip
+config/Backups/scheduled/lidarr_backup_v3.1.2.4914_2026.02.25_18.57.44.zip
+config/Backups/scheduled/lidarr_backup_v3.1.2.4914_2026.03.04_19.27.30.zip
+config/Backups/scheduled/lidarr_backup_v3.1.2.4914_2026.02.11_17.46.25.zip
